@@ -9,9 +9,12 @@
     <meta name="description"
         content="WDD 230 - Web Frontend Development, Mandoueuye Charles Romeo Koui, Course Assignment Portal">
     <meta name="author" content="Romeo Koui">
-
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/app.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 </head>
 
 <body>
@@ -22,18 +25,28 @@
                 loading="lazy">
         </div>
         <h1>Mandoueuye Charles Romeo Koui</h1>
-
+        <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
     </header>
     <nav>
+        <button id="menu"></button>
         <ul class="navigation">
             <li><a class="active" href="#" tabindex="1">Home</a></li>
             <li><a href="#" tabindex="2">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html" tabindex="3">Site Plan</a></li>
             <li><a href="#" tabindex="4">Form</a></li>
         </ul>
-
     </nav>
     <main>
+        <figure>
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Photo of Abidjan Ivory Coast Temple" width="1080" height="720"
+                    loading="lazy">
+            </picture>
+            <figcaption id="box">Abidjan Ivory Coast Temple</figcaption>
+        </figure>
+
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="info-box">
             <div class="activity-sec card">
@@ -55,8 +68,7 @@
                     </ul>
                 </ul>
             </div>
-        </section>
-        <section class="info-box">
+
             <div class="weather-sec card">
                 <h3>Information</h3>
                 <p>Abidjan, Côte d'Ivoire</p>
@@ -64,6 +76,14 @@
                 <p class="page-visit"></p>
             </div>
         </section>
+
+        <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15889.429376344891!2d-3.9768423!3d5.3623338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ed52857ea323%3A0xefc3ebf8dc7e82b5!2sAbidjan%20Ivory%20Coast%20Temple!5e0!3m2!1sen!2sci!4v1705710178231!5m2!1sen!2sci"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> Romeo Koui, Cote d'Ivoire</p>
