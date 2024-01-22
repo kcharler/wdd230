@@ -57,6 +57,10 @@ header img {
   border-radius: 5px;
 }
 
+header span {
+  font-size: 3.5rem;
+}
+
 .img-box {
   max-width: 25%;
 }

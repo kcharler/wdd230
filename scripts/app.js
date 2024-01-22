@@ -15,14 +15,16 @@ toggle.addEventListener('click', function(){
         body.style.background = 'white';
         body.style.color = 'black';
         body.style.transition = '2s';
-        body.querySelector('main h2').style.color = 'black';
-        body.querySelector('main h2').style.borderBottom = '3px solid black';
+        body.querySelector('main h1').style.color = 'black';
+        body.querySelector('main h3').style.color = 'black';
+        body.querySelector('main h1').style.borderBottom = '3px solid black';
     }else{
         body.style.background = 'black';
         body.style.color = 'white';
         body.style.transition = '2s';
-        body.querySelector('main h2').style.color = 'white';
-        body.querySelector('main h2').style.borderBottom = '3px solid white';
+        body.querySelector('main h1').style.color = 'white';
+        body.querySelector('main h3').style.color = 'black';
+        body.querySelector('main h1').style.borderBottom = '3px solid white';
 
     }
 });
