@@ -69,6 +69,10 @@
     grid-column: 1/ 3;
   }
 
+  #link-box li {
+    padding-top: .10rem;
+  }
+
   .weather-sec {
     grid-column: 3 / 4;
   }

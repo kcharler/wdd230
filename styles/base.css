@@ -160,7 +160,6 @@ ul.navigation.open {
 
 
 main {
-  color: var(--bg-color);
   padding: 2rem;
 }
 
@@ -235,13 +234,21 @@ main a:visited {
 }
 
 .card {
-  background-color: var(--section-bg);
-  backdrop-filter: blur(1.5rem);
+  
+ 
   border-radius: 1rem;
   box-shadow: var(--box-shadow);
-  padding-block: 1em;
-  padding-inline: 1em;
 }
+
+#link-box li {
+  color: black;
+  padding-top: 3rem;
+}
+
+#link-box li a {
+  color: blue;
+}
+
 
 .weather-sec {
   display: flex;
