@@ -15,6 +15,8 @@ toggle.addEventListener('click', function(){
         body.style.background = 'white';
         body.style.color = 'black';
         body.style.transition = '2s';
+        body.querySelector('main h2').style.color = 'black';
+        body.querySelector('main h2').style.borderBottom = '3px solid black';
     }else{
         body.style.background = 'black';
         body.style.color = 'white';
