@@ -171,7 +171,7 @@ figure {
 }
 
 figure,
-main h2 {
+main h1 {
   margin-block-end: 1em;
 }
 
@@ -193,19 +193,19 @@ figcaption {
   text-shadow: -1rem 2px 2rem;
 }
 
-main :where(h2, h3) {
-  text-align: center;
-}
 
-main h2 {
+
+main h1 {
+  font-size: 24px;
   color: #151515;
   border-bottom: 3px solid #151515;
 }
 
-main h3 {
+main h2 {
   background: var(--section-header);
   border-radius: 0.5rem;
   color: #000;
+  text-align: center;
 }
 
 main :where(section, h3) {
