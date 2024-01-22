@@ -1,6 +1,7 @@
-@media only screen and (min-width: 56.25em) {
+@media only screen and (min-width: 35em) {
   html {
     font-size: 62.5%;
+    padding: .25rem 2vw;
   }
 
   /* body {} */
@@ -9,16 +10,35 @@
     font-size: var(--fluid-text-3);
   }
 
-  nav,
+  
   main {
-    max-width: 180rem;
+    max-width: 150rem;
+    padding: 0 5vw;
     margin: 0 auto;
   }
 
+  #hamburger-toggle {
+    display: none;
+  } 
+
+  ul.navigation, ul.navigation.open {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  ul.navigation a:hover {
+    background-color: #7b7b7b;
+  }
+
+ 
   nav {
+    max-width: 180rem;
     height: fit-content;
   }
 
+   /*
   nav ul {
     display: flex;
   }
@@ -29,6 +49,8 @@
     justify-content: center;
     width: 100%;
   }
+*/
+ 
 
   .info-box {
     grid-template-columns: repeat(3, 1fr);
@@ -71,4 +93,6 @@
     display: block;
   }
 
-}s
+}
+
+s
