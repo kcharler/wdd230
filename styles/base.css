@@ -230,6 +230,9 @@ main a:visited {
   margin-inline-end: 1.5px;
 }
 
+.map h3 {
+  color: black;
+}
 
 .card {
   background-color: var(--section-bg);
