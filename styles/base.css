@@ -1,7 +1,7 @@
 :root {
   /* creating custom property values / variables */
   --font-family: "Roboto Mono", monospace, san-serif;
-  --box-shadow: 0 0 2rem -5px rgba(105, 105, 105, 0.26);
+  --box-shadow: 0 0 5rem -5px rgba(105, 105, 105, 0.5);
   --fluid-text-0: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
   --fluid-text-1: clamp(1.2rem, calc(1.1rem + 0.52vw), 1.5rem);
   --fluid-text-2: clamp(1.44rem, calc(1.25rem + 0.97vw), 2rem);
