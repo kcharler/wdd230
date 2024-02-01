@@ -12,11 +12,11 @@ const confirmPasswd = document.getElementById('confirm-passwd');
 const weatherBox = document.querySelector('.weather-box');
 const weatherIcon = document.querySelector('.weather-icon');
 
-const lat = -25.74804;
-const long = 28.23708;
-const apiKey = 'f4619f75c2d45cc1bfe1a55992e82aaa';
+const lat = 5.345317;
+const lon = -4.024429;
+const apiKey = '1caa9478312f36abcafb06700d515d80';
 
-const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apiKey}&units=imperial`;
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
 
 const apiFetch = async function() {
   try {
