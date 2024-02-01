@@ -59,7 +59,7 @@
             "week": "Week 04",
             "links": [
                 {
-                    "url": "https://codepen.io/KoiMonga/pen/KKbxNdM",
+                    "url": "https://codepen.io/charleskoui/pen/qBvoKeB",
                     "title": "Pseudo Classes"
                 },
                 {
@@ -67,7 +67,7 @@
                     "title": "CSS Combinators"
                 },
                 {
-                    "url": "https://kcharler.github.io/wdd230/week04/index.html",
+                    "url": "https://kcharler.github.io/wdd230/week04/form.html",
                     "title": "Forms"
                 },
                 {
@@ -75,7 +75,7 @@
                     "title": "Chamber Join"
                 }
             ]
-        },
+        } /*,
         {
             "week": "Week 05",
             "links": [
@@ -100,6 +100,6 @@
                     "title": "Chamber Directory"
                 }
             ]
-        }
+        } */
     ]
 }
