@@ -764,9 +764,13 @@ address a:hover,
     color: var(--optional-color);
 }
 
-.sidebar-info h2 {
+.sidebar-info h1, .sidebar-info h2 {
     text-decoration: underline double;
     text-underline-offset: 5px;
+}
+
+.sidebar-info h1{
+color: #fff;
 }
 
 .population-info div {
