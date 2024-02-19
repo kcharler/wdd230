@@ -5,7 +5,7 @@
     --secondary-color: #ffbe37;
     --tertiary-color: #edeefd;
     --default-color: #eef0f4;
-    --optional-color: #d68c45;
+    --optional-color: rgba(0, 0, 0, 1);
     --optional2-color: #f90a39;
     --calnder-text-color: #1d1d1d;
     --bg-color: #f1f1fb;
@@ -674,8 +674,9 @@ footer {
 
 .footer-captions {
     font-family: var(--heading-font);
-    color: #444;
+    color: rgba(255, 255, 255, 1);
     font-weight: 600;
+    font-size: 25px;
 }
 
 footer ul {
@@ -1141,11 +1142,12 @@ iframe {
 
 .views-button-section #grid-view {
     background-color: var(--optional-color);
+    color: #fff;
 }
 
 .views-button-section #list-view {
-    background-color: var(--secondary-color);
-    color: var(--default-color);
+    background-color: #fff;
+    color: rgba(0, 0, 0, 1;
 }
 
 .member-card-section {
