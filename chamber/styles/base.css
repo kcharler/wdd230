@@ -712,7 +712,7 @@ address,
 
 address a:hover,
 .quick-link-box a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: 5px underline var(--secondary-color);
 }
 
@@ -1142,11 +1142,12 @@ iframe {
 
 .views-button-section #grid-view {
     background-color: var(--optional-color);
+    color: #fff;
 }
 
 .views-button-section #list-view {
-    background-color: var(--secondary-color);
-    color: var(--default-color);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 .member-card-section {
