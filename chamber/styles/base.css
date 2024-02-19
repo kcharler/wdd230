@@ -663,7 +663,7 @@ svg {
 /* ----------------------FOOTER----------------------- */
 footer {
     padding-block: 5em;
-    color: #565656b6;
+    color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -683,7 +683,7 @@ footer ul {
 }
 
 footer svg {
-    fill: #444444d1;
+    fill: rgba(255, 255, 255, 1);
 }
 
 .contact-box,
@@ -696,7 +696,7 @@ footer svg {
 
 address a,
 .quick-link-box a {
-    color: #444444d1;
+    color: rgba(255, 255, 255, 1);
 }
 
 address,
