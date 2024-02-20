@@ -254,7 +254,7 @@ svg {
 }
 
 .nav-links {
-    color: #444;
+    color: rgba(255, 255, 255, 1);
     padding: .4em;
     text-decoration: none;
     padding-block: 1em;
@@ -924,7 +924,7 @@ iframe {
     border-radius: 5px;
 }
 
-
+.homepage-body footer,
 .discover-page-body footer,
 .join-page-body header,
 .join-page-body footer,
