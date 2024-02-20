@@ -924,6 +924,10 @@ iframe {
     border-radius: 5px;
 }
 
+.sidebar-info p a {
+    color: #fff;
+}
+
 .homepage-body footer,
 .discover-page-body footer,
 .join-page-body header,
