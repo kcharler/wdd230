@@ -883,7 +883,7 @@ color: #fff;
 
 .days .day.next,
 .days .day.prev {
-    color: #ccc;
+    color: #423e3e;
     background-color: var(--default-color);
 }
 
